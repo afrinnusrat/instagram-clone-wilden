@@ -15,3 +15,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 # Install Material UI
 - Install material-ui
 `$ npm install @material-ui/core`
+
+# Create Database in Cloud Firestore
+Create database in Cloud Firestore just next-next<br />
+1. Start collection and fill in the Collection ID with name posts.
+2. Click Auto-ID in the Auto-ID text field.
+3. Create 3 Fields with name caption, username, imageUrl and Type of Field is String and the fill the Value colomn with what ever you want.
