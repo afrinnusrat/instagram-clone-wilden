@@ -11,7 +11,7 @@ function Post() {
       <img className="post__image" src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" />
 
       {/* Username + Caption */}
-      <h4>Username: caption</h4>
+      <h4 className="post__text"><strong>Username </strong>caption</h4>
     </div>
   )
 }
