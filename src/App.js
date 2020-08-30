@@ -14,6 +14,8 @@ function App() {
       </div>
       <h1>Instagram Clone Wilden 🔥 🚀</h1>
       <Post />
+      <Post />
+      <Post />
     </div>
   );
 }
