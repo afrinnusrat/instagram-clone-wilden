@@ -11,3 +11,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 `$ npm install -g firebase-tools`
 3. Login to firebase
 `$ firebase login`
+
+# Install Material UI
+- Install material-ui
+`$ npm install @material-ui/core`
