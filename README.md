@@ -13,7 +13,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 `$ firebase login`
 
 # Install Material UI
-- Install material-ui
+1. Open [material-ui](https://material-ui.com/getting-started/installation/)
+2. Install material-ui
 `$ npm install @material-ui/core`
 
 # Create Database in Cloud Firestore
@@ -38,3 +39,5 @@ Create database in Cloud Firestore just next-next<br />
 - Enabled the First one
 - Disbaled Email Link (passwordless sign-in)
 - Click Save
+
+# Modal Material-UI
