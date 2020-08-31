@@ -41,3 +41,6 @@ Create database in Cloud Firestore just next-next<br />
 - Click Save
 
 # Modal Material-UI
+
+# Install React Instagram Embed
+`$ npm i react-instagram-embed`

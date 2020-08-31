@@ -6,6 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Button, Input } from '@material-ui/core';
 import Modal from '@material-ui/core/Modal';
 import ImageUpload from './ImageUpload';
+import InstagramEmbed from 'react-instagram-embed';
 
   function getModalStyles() {
     const top = 50;
@@ -198,6 +199,18 @@ function App() {
         }
       </div>
 
+      <InstagramEmbed
+        url='https://www.instagram.com/p/B60Ln2ph_qS/'
+        maxWidth={320}
+        hideCaption={false}
+        containerTagName='div'
+        protocol=''
+        injectScript
+        onLoading={() => {}}
+        onSuccess={() => {}}
+        onAfterRender={() => {}}
+        onFailure={() => {}}
+      />
       
       {
         user?.displayName ? (
