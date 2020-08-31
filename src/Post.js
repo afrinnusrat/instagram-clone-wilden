@@ -25,6 +25,10 @@ function Post({postId,  username, caption, imageUrl }) {
     }
   }, [postId])
 
+  const postComment = (event) => {
+
+  }
+
   return (
     <div className="post">
       {/* Header -> Avatar + Username */}
@@ -43,7 +47,17 @@ function Post({postId,  username, caption, imageUrl }) {
       {/* Username + Caption */}
       <h4 className="post__text"><strong>{username} </strong>{caption}</h4>
 
-      <form>
+      <div className="post__comments">
+        {
+          comments.map((comment) => (
+            <p>
+              <b>{comment.username}</b> {comment.text}
+            </p>
+          ))
+        }
+      </div>
+
+      <form className="post__commentBox">
         <input
           className="post__input"
           type="text"
@@ -51,6 +65,14 @@ function Post({postId,  username, caption, imageUrl }) {
           value={comment}
           onChange={(e) => setComment(e.target.value)}
         />
+        <button
+          className="post__button"
+          disabled={!comment}
+          type="submit"
+          onClick={postComment}
+        >
+          Post
+        </button>
       </form>
     </div>
   )
