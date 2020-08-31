@@ -44,3 +44,16 @@ Create database in Cloud Firestore just next-next<br />
 
 # Install React Instagram Embed
 `$ npm i react-instagram-embed`
+
+# Deploy to Firebase
+1. Install firebase tools
+`$ npm install -g firebase-tools`
+2. Firebase Init
+`$ firebase init`
+- Are you ready to procees? `Jawab Y`
+- Pilih Hosting: `Configure and deploy Firebase Hosting sites`
+- What do you want to use as your public directory? `(awalnya - public ganti jadi build)`
+- Configure as a single-page app (rewrite all urls to /index.html)? (y/N) , `jawab YES aja`
+- `$ npm run build`
+- `$ firebase deploy`
+- Cara cepat `$ npm run build && firebase deploy`
