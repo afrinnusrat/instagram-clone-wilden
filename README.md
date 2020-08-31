@@ -21,3 +21,11 @@ Create database in Cloud Firestore just next-next<br />
 1. Start collection and fill in the Collection ID with name posts.
 2. Click Auto-ID in the Auto-ID text field.
 3. Create 3 Fields with name caption, username, imageUrl and Type of Field is String and the fill the Value colomn with what ever you want.
+
+# Create firebase config file
+1. Install `$ npm i firebase`
+1. Create firebase.js file in src folder
+2. Goto console firebase and setting project
+3. Go down look at Firebase SDK snippet
+4. Click Config radion button
+5. Copy const firebaseConfig and paste to firebase.js and edit
